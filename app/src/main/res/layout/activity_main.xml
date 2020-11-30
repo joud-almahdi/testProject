@@ -22,11 +22,20 @@
         android:clickable="true"
         android:onClick="ChangeFragments"
         android:text="@string/fragment_2" />
-    
-<fragment
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="heeeeeeeeeeerrrrrrreeeee"
+        android:textSize="36sp" />
+
+    <fragment
     android:id="@+id/fr"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:name="com.example.fragments2.Fragment1"
 />
+
 </LinearLayout>
